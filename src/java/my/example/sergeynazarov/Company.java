@@ -39,7 +39,7 @@ public class Company {
         }
     }
 
-    public void fire(int countEmployees) { //удаляет случайных сотрудников и счетает сколько осталось
+    public void fire(int countEmployees) { 
         for (int i = 0; i < countEmployees; i++) {
             int min = 0;
             int max = staff.size() - 1;
@@ -90,11 +90,11 @@ public class Company {
         StringBuilder builder = new StringBuilder();
         for (Employee employee : list) {
             if (employee instanceof Operator) {
-                builder.append("оператор" + " -> " + employee.getMonthSalary() + " рублей\n");
+                builder.append("orator" + " -> " + employee.getMonthSalary() + " dollars\n");
             } else if (employee instanceof Manager) {
-                builder.append("менеджер" + " -> " + employee.getMonthSalary() + " рублей\n");
+                builder.append("manager" + " -> " + employee.getMonthSalary() + " dollars\n");
             } else {
-                builder.append("топ менеджер" + " -> " + employee.getMonthSalary() + " рублей\n");
+                builder.append("top manager" + " -> " + employee.getMonthSalary() + " dollars\n");
             }
         }
         return builder;
