@@ -1,6 +1,7 @@
-Company Salary Simulation
-This is a simple educational Java project that simulates a company with different types of employees. It demonstrates object-oriented programming principles, use of collections, and basic sorting/comparison of data.
-Project Overview
+# Company Salary Simulation  
+
+This is a simple educational Java project that simulates a company with different types of employees. It demonstrates object-oriented programming  principles, use of collections, and basic sorting/comparison of data.  
+Project Overview  
 The project models a company with three types of employees:
 Operator — receives a fixed salary in the range of 45,000–50,000.
 Manager — (implementation not shown here, but typically generates company income and has a base salary).
